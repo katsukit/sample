@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ↓ここから追加 -->
+<web-app>
+    <servlet>
+        <servlet-name>sample</servlet-name>                 <!-- Servlet name -->
+        <servlet-class>sample.SampleServlet</servlet-class> <!-- Class name -->
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>sample</servlet-name>                 <!-- Servlet name -->
+        <url-pattern>/servlet</url-pattern>                 <!-- URL pattern -->
+    </servlet-mapping>
+</web-app>
+<!-- ↑ここまで追加 -->
